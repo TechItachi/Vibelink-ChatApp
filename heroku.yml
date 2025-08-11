@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: ./frontend
+    api: ./backend
+run:
+  web: nginx -g 'daemon off;'
+  api: npm run dev
