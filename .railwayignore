@@ -1,0 +1,6 @@
+render.yaml
+docker-compose.yml
+deploy.sh
+node_modules/
+.env
+*.log
